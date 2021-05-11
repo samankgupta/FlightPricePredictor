@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+flight/node_modules
+flight/.pnp
+flight/.pnp.js
+
+# testing
+flight/coverage
+
+# production
+flight/build
+
+# misc
+flight/.DS_Store
+flight/.env.local
+flight/.env.development.local
+flight/.env.test.local
+flight/.env.production.local
+
+flight/npm-debug.log*
+flight/yarn-debug.log*
+flight/yarn-error.log*
+
+static/
